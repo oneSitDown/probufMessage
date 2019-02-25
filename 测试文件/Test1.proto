@@ -1,3 +1,6 @@
 
 import "proto/test.pro";
-
+message Test1
+{
+   required test.pro.Test.TestEnum testEnum=20;
+}
